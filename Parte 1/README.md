@@ -10,6 +10,8 @@
 
 - Aprenda a definir estilos para elementos usando o CSS
 
+Acessem - GitHub Pages: ![Barbearia Alura](https://tiagomerc.github.io/HTML-5-e-CSS3/)
+
 ### Prints:
 
 ![Organização da página e estilização inicial](/Parte%201/imgs/prints/print1.png)
