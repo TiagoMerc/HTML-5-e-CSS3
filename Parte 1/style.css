@@ -1,0 +1,54 @@
+body {
+  background: #CCCCCC;
+}
+
+p {
+  text-align: center;
+}
+
+em strong { 
+  color:#FF0000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Marcar especificamente um elemento o navegador, procura o "Stron" dentro "em".
+  
+ Como faço então para deixar um CSS específico para somente um elemento? Precisamos que: ou o CSS seja aplicado in line ou que mudemos o CSS para atender a uma estrutura.
+
+[07:45] Como assim? Temos um strong dentro de um parágrafo. Na linha de baixo, temos um strong dentro de em, que está dentro de um parágrafo. No nosso CSS, temos como fazer isso. Temos como selecionar especificamente o strong que está dentro do em.
+
+[08:07] Fazemos isso colocando a seguinte estrutura: em strong.
+
+[08:16] Lendo isso como o navegador vai ler, ele vai procurar todos os strongs que estão dentro de todos os ems. No nosso caso, no nosso site, só temos uma possibilidade para essa marcação.
+
+[08:34] Se salvarmos e voltarmos à página, vamos ter marcado especificamente somente este elemento.  
+  */
