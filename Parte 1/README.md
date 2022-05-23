@@ -16,3 +16,4 @@ Acessem - GitHub Pages: ![Barbearia Alura](https://tiagomerc.github.io/HTML-5-e-
 
 ![Organização da página e estilização inicial](/Parte%201/imgs/prints/print1.png)
 
+![Finalizando a página](/Parte%201/imgs/prints/print2.png)
