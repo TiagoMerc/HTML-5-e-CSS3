@@ -16,4 +16,29 @@
 ![Organização da página e estilização inicial](/Parte%201/imgs/prints/print1.png)
 
 #### Finalizando a página
+
+23/05/2022
+
 ![Finalizando a página](/Parte%201/imgs/prints/print2.png)
+
+#### Página produtos
+
+24/05/2022
+
+1 - Criando uma nova página
+
+2 - Navegação entre páginas
+
+3 - Posicionamento dos elementos
+
+**O que aprendemos?**
+
+Nesta aula, aprendemos:
+
+- Como remover os estilos que o navegador cria automaticamente
+
+- Como funciona os posicionamentos static, relative e absolute dos elementos
+
+- Como posicionar o cabeçalho da nossa página
+
+![Página de produtos](/Parte%201/imgs/prints/print3.png)
