@@ -28,3 +28,56 @@ nav a {
   color: #000000; /* Black*/ 
   text-decoration: none; /*Sem nenhuma decoração no texto*/
 }
+
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box; 
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produto-descricao {
+  font-size: 18px;
+}
+
+.produto-preco { 
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* repara que o nosso texto, ou seja, a nossa descrição, ela está muito colada na borda, está muito colada no fim do elemento, e aí, eu quero aumentar o espaçamento interno. O espaçamento interno é o padding, eu vou botar 30 pixels para cima e para baixo e 20 pixels para as laterais.
+
+[01:47] Quando eu salvo isso e recarrego o navegador, reparem que o tamanho do elemento aumentou, antes eu tinha um elemento com 30% de largura, mas agora eu tenho um elemento com 30% de largura e mais 20 pixels para cada lado, o padding, o espaçamento interno, ele adicionou uma largura naqueles 30%.
+
+[02:13] E aí, com isso, quebrou toda a minha conta, mas mexer com pixel, junto com percentual, é uma coisa que a gente faz no dia-a-dia e aí, tem uma forma para resolver isso. Hoje, o nosso CSS e o nosso navegador, eles estão somando percentual, mais os pixels.
+
+[02:31] A gente tem como mudar a forma como ele pensa, para que o espaçamento lateral esteja dentro do percentual. E aí, para fazer isso, a gente usa uma propriedade chamada box-sizing: border-box, com isso aqui, os meus 30%, agora são definitivos, são sempre a largura e esses pixels de espaçamento interno, estão dentro desses 30%.
+
+[03:02] Então, quando eu salvo isso e volto para o meu navegador, está lá. A gente tem um espaçamento interno de 20 pixels para cada lado e a gente tem um elemento ocupando 30% da largura. Para deixar isso aqui ainda mais perfeito, o nosso preço está muito colado na descrição.*/
