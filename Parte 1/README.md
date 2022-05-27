@@ -88,3 +88,17 @@ Algumas pseudo-classes CSS
 - A mudar a cor da borda de um elemento, quando o mesmo estiver sendo ativado pelo usuário
 
 ![Lindado com bordas + Pseudo-classes CSS](/Parte%201/imgs/prints/print5.png)
+
+##### Finalizando a página de produtos 
+
+Nesta aula, aprendemos:
+
+- A tag footer, para o rodapé da nossa página
+
+- Que, com CSS, podemos colocar uma imagem de fundo em um elemento
+
+  - Quando colocamos uma imagem de fundo em um elemento, o CSS, por padrão, copia e cola a imagem diversas vezes até ocupar todo o espaço do elemento
+
+  - A tabela Unicode ![Tabela Unicode](https://unicode-table.com/pt/)
+
+  ![Finalizando a página de produtos](/Parte%201/imgs/prints/print6.png)
