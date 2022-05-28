@@ -99,6 +99,6 @@ Nesta aula, aprendemos:
 
   - Quando colocamos uma imagem de fundo em um elemento, o CSS, por padrão, copia e cola a imagem diversas vezes até ocupar todo o espaço do elemento
 
-  - A tabela Unicode ![Tabela Unicode](https://unicode-table.com/pt/)
+  - A tabela Unicode 
 
   ![Finalizando a página de produtos](/Parte%201/imgs/prints/print6.png)
