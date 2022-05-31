@@ -1,0 +1,127 @@
+header {
+  background: #BBBBBB;
+  padding: 10px 0 ;
+}
+
+.navegacao {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+
+  right: 0;
+}
+
+nav li {
+  display: flex;
+  margin: 10 40 80 15px;
+}
+
+nav a {
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #C78C19;
+  text-decoration: underline;
+}
+
+#banner {
+  width: 100%;
+
+}
+
+.principal {
+  background: #CCCCCC;
+  padding: 30px;
+}
+
+/* .titulo-principal {
+  padding-left: 20px;
+} */
+
+.titulo-centralizado {
+  text-align: center;
+
+}
+
+p {
+  text-align: center;
+}
+
+#missao {
+  font-size: 20px;
+}
+
+em strong { 
+  color:#FF0000;
+
+}
+
+.itens {
+  font-style: italic;
+}
+
+.beneficios {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  display: inline-block; /*O display inline block ocupa só o tamanho do conteúdo, mas me deixa mexer na largura e espaçamentos.  */
+  vertical-align: top; /* Todos os elementos são alinhados pela linha de baixo e queremos que sejam alinhados pela linha de cima. Para isso, no nosso CSS*/
+  width: 20%;
+  margin-right: 15%;
+}
+
+.imagem_beneficios {
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Marcar especificamente um elemento o navegador, procura o "Stron" dentro "em".
+  
+ Como faço então para deixar um CSS específico para somente um elemento? Precisamos que: ou o CSS seja aplicado in line ou que mudemos o CSS para atender a uma estrutura.
+
+[07:45] Como assim? Temos um strong dentro de um parágrafo. Na linha de baixo, temos um strong dentro de em, que está dentro de um parágrafo. No nosso CSS, temos como fazer isso. Temos como selecionar especificamente o strong que está dentro do em.
+
+[08:07] Fazemos isso colocando a seguinte estrutura: em strong.
+
+[08:16] Lendo isso como o navegador vai ler, ele vai procurar todos os strongs que estão dentro de todos os ems. No nosso caso, no nosso site, só temos uma possibilidade para essa marcação.
+
+[08:34] Se salvarmos e voltarmos à página, vamos ter marcado especificamente somente este elemento.  
+  */

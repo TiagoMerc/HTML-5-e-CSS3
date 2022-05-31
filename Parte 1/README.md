@@ -102,3 +102,35 @@ Nesta aula, aprendemos:
   - A tabela Unicode 
 
   ![Finalizando a página de produtos](/Parte%201/imgs/prints/print6.png)
+
+_______________
+
+### HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas
+
+31/05/2022 | Criando uma nova página e começando um formulário
+
+**O que aprendemos?**
+
+Nesta aula, aprendemos:
+
+- A criar um formulário HTML
+
+- A tag que o representa é a <form>
+
+- A tag <input>, para a entrada de dados do usuário
+
+- A criar uma etiqueta para o input, com a tag <label>
+
+- A conectar um input com o seu label
+
+- Colocamos um id para o input e associamos esse id ao atributo for do label
+
+- Alguns tipos de input, como text e submit
+
+- Que label possui o display inline e o input possui display inline-block
+
+- A estilizar o nosso formulário
+
+
+
+![Criando formulário na página de contatos](/Parte%201/imgs/prints/print5.png)

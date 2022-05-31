@@ -1,9 +1,9 @@
 header {
   background: #BBBBBB;
-  padding: 10px 0 ;
+  padding: 20px 0 ; /*entre a margem tenha um espaçamento*/
 }
 
-.navegacao {
+.caixa {
   position: relative;
   width: 940px;
   margin: 0 auto;
@@ -12,21 +12,21 @@ header {
 nav {
   position: absolute;
   top: 110px;
-
   right: 0;
 }
 
 nav li {
-  display: flex;
-  margin: 10 40 80 15px;
+  display: inline;  /*Deixar o itens um do lado do outrom na linha*/
+  margin: 0 0 0 15px ; /*margem de cada item. primeiro topo, despois direita, baixo e esquerda*/
+
 }
 
 nav a {
-  font-weight: bold;
+  font-weight: bold; /*Trasnformando o texto em negrito*/
   font-size: 22px;
-  text-transform: uppercase;
-  color: #000000;
-  text-decoration: none;
+  text-transform: uppercase; /*Transformando o texto em letra MAIUSCULA*/
+  color: #000000; /* Black*/ 
+  text-decoration: none; /*Sem nenhuma decoração no texto*/
 }
 
 nav a:hover {
@@ -34,59 +34,84 @@ nav a:hover {
   text-decoration: underline;
 }
 
-#banner {
-  width: 100%;
-
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
-.principal {
-  background: #CCCCCC;
-  padding: 30px;
-}
-
-/* .titulo-principal {
-  padding-left: 20px;
-} */
-
-.titulo-centralizado {
+.produtos li {
+  display: inline-block;
   text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box; 
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.produtos li:hover {
+ border-color: #C78C19;
 
 }
 
-p {
+.produtos li:active {
+  border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+  font-size: 34px; /*) Quando algum item da lista de produtos estiver sendo ativado pelo usuário, modifique a cor da sua borda*/
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produto-descricao {
+  font-size: 18px;
+}
+
+.produto-preco { 
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+  
+}
+
+footer {
   text-align: center;
+  background: url("imgs/bg.jpg");
+  padding: 40px 0; /* 40px pra cima e pra baixo e 0px para os lados*/
 }
 
-#missao {
+.copyright {
+  color: #FFFFFF;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+ margin: 40px 0;
+}
+
+form label {
+  display: block;
   font-size: 20px;
+  margin: 0 0 10px;
 }
 
-em strong { 
-  color:#FF0000;
-
-}
-
-.itens {
-  font-style: italic;
-}
-
-.beneficios {
-  background-color: #FFFFFF;
-  padding: 20px;
-}
-
-h2 {
-  text-align: center;
-}
-
-ul {
-  display: inline-block; /*O display inline block ocupa só o tamanho do conteúdo, mas me deixa mexer na largura e espaçamentos.  */
-  vertical-align: top; /* Todos os elementos são alinhados pela linha de baixo e queremos que sejam alinhados pela linha de cima. Para isso, no nosso CSS*/
-  width: 20%;
-  margin-right: 15%;
-}
-
-.imagem_beneficios {
+form input {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
   width: 50%;
 }
 
@@ -100,28 +125,12 @@ ul {
 
 
 
+/* repara que o nosso texto, ou seja, a nossa descrição, ela está muito colada na borda, está muito colada no fim do elemento, e aí, eu quero aumentar o espaçamento interno. O espaçamento interno é o padding, eu vou botar 30 pixels para cima e para baixo e 20 pixels para as laterais.
 
+[01:47] Quando eu salvo isso e recarrego o navegador, reparem que o tamanho do elemento aumentou, antes eu tinha um elemento com 30% de largura, mas agora eu tenho um elemento com 30% de largura e mais 20 pixels para cada lado, o padding, o espaçamento interno, ele adicionou uma largura naqueles 30%.
 
+[02:13] E aí, com isso, quebrou toda a minha conta, mas mexer com pixel, junto com percentual, é uma coisa que a gente faz no dia-a-dia e aí, tem uma forma para resolver isso. Hoje, o nosso CSS e o nosso navegador, eles estão somando percentual, mais os pixels.
 
+[02:31] A gente tem como mudar a forma como ele pensa, para que o espaçamento lateral esteja dentro do percentual. E aí, para fazer isso, a gente usa uma propriedade chamada box-sizing: border-box, com isso aqui, os meus 30%, agora são definitivos, são sempre a largura e esses pixels de espaçamento interno, estão dentro desses 30%.
 
-
-
-
-
-
-
-
-
-
-/* Marcar especificamente um elemento o navegador, procura o "Stron" dentro "em".
-  
- Como faço então para deixar um CSS específico para somente um elemento? Precisamos que: ou o CSS seja aplicado in line ou que mudemos o CSS para atender a uma estrutura.
-
-[07:45] Como assim? Temos um strong dentro de um parágrafo. Na linha de baixo, temos um strong dentro de em, que está dentro de um parágrafo. No nosso CSS, temos como fazer isso. Temos como selecionar especificamente o strong que está dentro do em.
-
-[08:07] Fazemos isso colocando a seguinte estrutura: em strong.
-
-[08:16] Lendo isso como o navegador vai ler, ele vai procurar todos os strongs que estão dentro de todos os ems. No nosso caso, no nosso site, só temos uma possibilidade para essa marcação.
-
-[08:34] Se salvarmos e voltarmos à página, vamos ter marcado especificamente somente este elemento.  
-  */
+[03:02] Então, quando eu salvo isso e volto para o meu navegador, está lá. A gente tem um espaçamento interno de 20 pixels para cada lado e a gente tem um elemento ocupando 30% da largura. Para deixar isso aqui ainda mais perfeito, o nosso preço está muito colado na descrição.*/
