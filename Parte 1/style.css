@@ -1,5 +1,37 @@
-body {
- 
+header {
+  background: #BBBBBB;
+  padding: 10px 0 ;
+}
+
+.navegacao {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+
+  right: 0;
+}
+
+nav li {
+  display: flex;
+  margin: 10 40 80 15px;
+}
+
+nav a {
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #C78C19;
+  text-decoration: underline;
 }
 
 #banner {
@@ -12,9 +44,9 @@ body {
   padding: 30px;
 }
 
-.titulo-principal {
+/* .titulo-principal {
   padding-left: 20px;
-}
+} */
 
 .titulo-centralizado {
   text-align: center;

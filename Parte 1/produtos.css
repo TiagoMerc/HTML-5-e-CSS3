@@ -17,7 +17,7 @@ nav {
 
 nav li {
   display: inline;  /*Deixar o itens um do lado do outrom na linha*/
-  margin: 0 0 0 15px ; /*margem de cada item. primeiro topo, despois diretia, baixo e esquerda*/
+  margin: 0 0 0 15px ; /*margem de cada item. primeiro topo, despois direita, baixo e esquerda*/
 
 }
 
@@ -92,6 +92,7 @@ footer {
   font-size: 13px;
   margin: 20px 0 0;
 }
+
 
 
 
