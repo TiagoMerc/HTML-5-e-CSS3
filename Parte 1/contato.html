@@ -37,6 +37,25 @@
             <label for="telefone">Telefone</label>
             <input type="text" id="telefone">
 
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" cols="70" rows="10"></textarea>
+
+              <div>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contato" value="email" id="radio-email">
+
+                <label for="radio-telefone"> Telefone</label>
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+                <label for="radio-whatsapp">WhatsApp</label>
+                <input type="radio" name="contato"  value="whatsapp" id="radio-whatsapp">
+
+                <!--A propriedade name só pode ser "preenchida" uma única vez, por isso que, quando eu seleciono um dos itens, ele desmarca o outro, mantendo somente um selecionado.-->
+              </div>
+
+            <label><input type="checkbox">Gostaria de receber nossas promoções por email?</label>
+
             <input type="submit" value="Enviar formulário">
         </form>
 

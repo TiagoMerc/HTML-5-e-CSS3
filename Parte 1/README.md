@@ -131,6 +131,4 @@ Nesta aula, aprendemos:
 
 - A estilizar o nosso formulário
 
-
-
 ![Criando formulário na página de contatos](/Parte%201/imgs/prints/print7.png)
