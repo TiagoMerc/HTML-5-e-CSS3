@@ -132,3 +132,29 @@ Nesta aula, aprendemos:
 - A estilizar o nosso formulário
 
 ![Criando formulário na página de contatos](/Parte%201/imgs/prints/print7.png)
+
+### HTML5 e CSS3 parte 3: tipos de campos diferentes 
+
+02/06/2022 | 03. tipos de campos diferentes 
+
+**O que aprendemos?**
+
+Nesta aula, vimos:
+
+- O textarea, para entradas de texto de mais de uma linha
+
+- O input do tipo radio
+
+- Como agrupar vários input do tipo radio, impedindo que mais de um input seja selecionado
+
+- O input do tipo checkbox
+
+- Que podemos criar um input dentro de um label, assim associando-os
+
+- Mais estilizações para a nossa página
+
+- Como funciona a hierarquia no CSS
+
+- O select, que é seletor, um campo de seleção de um item, e o option, que representa cada opção do seletor
+
+![tipos de campos diferentes](/Parte%201/imgs/prints/print8.png)

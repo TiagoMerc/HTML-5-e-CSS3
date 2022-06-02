@@ -29,36 +29,53 @@
     <main>
         <form>
             <label for="nomesobrenome"> Nome e sobrenome</label>
-            <input type="text" id="nomesobrenome">
+            <input type="text" id="nomesobrenome" class="input-padrao">
             
             <label for="email"> Email</label>
-            <input type="text" id="email">
+            <input type="text" id="email" class="input-padrao" >
 
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone">
+            <input type="text" id="telefone" class="input-padrao">
 
             <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" cols="70" rows="10"></textarea>
+            <textarea id="mensagem" cols="70" rows="10" class="input-padrao"></textarea>
 
               <div>
                 <p>Como prefere o nosso contato?</p>
-                <label for="radio-email">Email</label>
-                <input type="radio" name="contato" value="email" id="radio-email">
-
-                <label for="radio-telefone"> Telefone</label>
-                <input type="radio" name="contato" value="telefone" id="radio-telefone">
-
-                <label for="radio-whatsapp">WhatsApp</label>
-                <input type="radio" name="contato"  value="whatsapp" id="radio-whatsapp">
-
-                <!--A propriedade name só pode ser "preenchida" uma única vez, por isso que, quando eu seleciono um dos itens, ele desmarca o outro, mantendo somente um selecionado.-->
+                <label for="radio-email">
+                    <input type="radio" name="contato" value="email" id="radio-email">
+                    Email
+                </label>
+               
+                <label for="radio-telefone">
+                    <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                    Telefone
+                </label>
+                
+                <label for="radio-whatsapp">
+                    <input type="radio" name="contato"  value="whatsapp" id="radio-whatsapp">
+                    WhatsApp
+                </label>
+     
               </div>
 
-            <label><input type="checkbox">Gostaria de receber nossas promoções por email?</label>
+              <div>
+                  <p>Qual horário prefere ser atendido?</p>
+                  <select name="" id="">
+                      <option value="">Manhã</option>
+                      <option value="">Tarde</option>
+                      <option value="">Noite</option>
+                  </select>
+              </div>
+
+            <label class="checkbox">
+                <input type="checkbox">
+                Gostaria de receber nossas promoções por email?
+            </label>
 
             <input type="submit" value="Enviar formulário">
-        </form>
 
+        </form>
     </main>
 
     <footer>
