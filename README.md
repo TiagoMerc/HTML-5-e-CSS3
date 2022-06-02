@@ -4,7 +4,7 @@ Vamos utilizar HTML e CSS e criar layouts para uma página web estática.
 
 #### GitHub Pages:
 **Acesseem:**
-![Barbearia Alura](https://tiagomerc.github.io/HTML-5-e-CSS3/contato.html)
+[Barbearia Alura](https://tiagomerc.github.io/HTML-5-e-CSS3/index.html)
 
 
 ### Curso de HTML5 e CSS3 parte 1: a primeira página da Web
