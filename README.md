@@ -224,8 +224,8 @@ Nesta aula, vimos:
 
 - A estilizar a tabela
 
-![Estrutura de tabelas](/Parte%201/imgs/prints/print11.png)
+![Estrutura de tabelas](imgs/prints/print11.png)
 
 ### Criei o menu de navegação na HOME igual ao das outras páginas e foi inserido um footer
 
-![Finalizando o projeto](/Parte%201/imgs/prints/print12.png)
+![Finalizando o projeto](imgs/prints/print12.png)
