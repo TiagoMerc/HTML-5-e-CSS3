@@ -159,7 +159,7 @@ Nesta aula, vimos:
 
 ![tipos de campos diferentes](/Parte%201/imgs/prints/print8.png)
 
-### HTML5 e CSS3 parte 3: tipos de campos diferentes 
+### HTML5 e CSS3 parte 3: melhorando a semântica  
 
 02/06/2022 | 04. Melhorando a semântica 
 
@@ -178,3 +178,19 @@ Nesta aula, vimos:
 - Como adicionar uma alternativa à imagem, descrevendo-a, com o atributo alt
 
 ![mehorando a semântica](/Parte%201/imgs/prints/print9.png)
+
+### HTML5 e CSS3 parte 3: CSS avançado
+
+02/06/2022 | 05. CSS avançado
+
+**O que aprendemos?**
+
+- Como estilizar o botão de envio de formulário
+
+- A realizar transições nos nossos elementos, com a propriedade CSS transition
+
+- A modificar o estilo do ponteiro do mouse, quando passar por cima de determinado elemento, através da propriedade CSS cursor
+
+- A realizar transformações nos nossos elementos, como aumentar proporcionalmente a escala de determinado elemento ou rotacioná-lo, através da propriedade CSS transform
+
+![CSS avançado](/Parte%201/imgs/prints/print10.png)
