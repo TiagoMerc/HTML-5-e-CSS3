@@ -158,3 +158,23 @@ Nesta aula, vimos:
 - O select, que é seletor, um campo de seleção de um item, e o option, que representa cada opção do seletor
 
 ![tipos de campos diferentes](/Parte%201/imgs/prints/print8.png)
+
+### HTML5 e CSS3 parte 3: tipos de campos diferentes 
+
+02/06/2022 | 04. Melhorando a semântica 
+
+**O que aprendemos?** 
+
+- Alguns tipos de inputs para celular: email, tel, number, password, date, datetime, month e search
+
+- Como não permitir que um campo não seja preenchido, através do atributo required
+
+- Como exibir uma sugestão de preenchimento para os campos, através do atributo placeholder
+
+- Como deixar uma opção marcada por padrão nos nossos input radio e checkbox, através do atributo checked
+
+- Como estruturar melhor o nosso código com fieldset e legend
+
+- Como adicionar uma alternativa à imagem, descrevendo-a, com o atributo alt
+
+![mehorando a semântica](/Parte%201/imgs/prints/print9.png)
