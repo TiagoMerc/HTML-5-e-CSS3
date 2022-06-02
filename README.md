@@ -3,7 +3,7 @@
 Vamos utilizar HTML e CSS e criar layouts para uma página web estática.
 
 #### GitHub Pages:
-**Acesseem:**
+**Acessem:**
 [Barbearia Alura](https://tiagomerc.github.io/HTML-5-e-CSS3/index.html)
 
 
