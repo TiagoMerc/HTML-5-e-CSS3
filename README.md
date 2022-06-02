@@ -18,13 +18,13 @@ Vamos utilizar HTML e CSS e criar layouts para uma página web estática.
 ### Prints:
 
 #### Organização da página e estilização inicial
-![Organização da página e estilização inicial](/Parte%201/imgs/prints/print1.png)
+![Organização da página e estilização inicial](imgs/prints/print1.png)
 
 #### Finalizando a página
 
 23/05/2022
 
-![Finalizando a página](/Parte%201/imgs/prints/print2.png)
+![Finalizando a página](imgs/prints/print2.png)
 
 #### Página produtos
 
@@ -46,7 +46,7 @@ Nesta aula, aprendemos:
 
 - Como posicionar o cabeçalho da nossa página
 
-![Página de produtos](/Parte%201/imgs/prints/print3.png)
+![Página de produtos](imgs/prints/print3.png)
 
 25/05/2022 | A tag section
 
@@ -63,7 +63,7 @@ Nesta aula, aprendemos:
 - A praticar e estilizar o conteúdo principal da nossa página
 
 
-![A tag section](/Parte%201/imgs/prints/print4.png)
+![A tag section](imgs/prints/print4.png)
 
 26/05/2022 | Lidando com bordas
 
@@ -92,7 +92,7 @@ Algumas pseudo-classes CSS
 
 - A mudar a cor da borda de um elemento, quando o mesmo estiver sendo ativado pelo usuário
 
-![Lindado com bordas + Pseudo-classes CSS](/Parte%201/imgs/prints/print5.png)
+![Lindado com bordas + Pseudo-classes CSS](imgs/prints/print5.png)
 
 ##### Finalizando a página de produtos 
 
@@ -106,7 +106,7 @@ Nesta aula, aprendemos:
 
   - A tabela Unicode 
 
-  ![Finalizando a página de produtos](/Parte%201/imgs/prints/print6.png)
+  ![Finalizando a página de produtos](imgs/prints/print6.png)
 
 _______________
 
@@ -136,7 +136,7 @@ Nesta aula, aprendemos:
 
 - A estilizar o nosso formulário
 
-![Criando formulário na página de contatos](/Parte%201/imgs/prints/print7.png)
+![Criando formulário na página de contatos](imgs/prints/print7.png)
 
 ### HTML5 e CSS3 parte 3: tipos de campos diferentes 
 
@@ -162,7 +162,7 @@ Nesta aula, vimos:
 
 - O select, que é seletor, um campo de seleção de um item, e o option, que representa cada opção do seletor
 
-![tipos de campos diferentes](/Parte%201/imgs/prints/print8.png)
+![tipos de campos diferentes](imgs/prints/print8.png)
 
 ### HTML5 e CSS3 parte 3: melhorando a semântica  
 
@@ -182,7 +182,7 @@ Nesta aula, vimos:
 
 - Como adicionar uma alternativa à imagem, descrevendo-a, com o atributo alt
 
-![mehorando a semântica](/Parte%201/imgs/prints/print9.png)
+![mehorando a semântica](imgs/prints/print9.png)
 
 ### HTML5 e CSS3 parte 3: CSS avançado
 
@@ -198,7 +198,7 @@ Nesta aula, vimos:
 
 - A realizar transformações nos nossos elementos, como aumentar proporcionalmente a escala de determinado elemento ou rotacioná-lo, através da propriedade CSS transform
 
-![CSS avançado](/Parte%201/imgs/prints/print10.png)
+![CSS avançado](imgs/prints/print10.png)
 
 ### HTML5 e CSS3 parte 3: Estrutura de tabelas
 
