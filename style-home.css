@@ -16,7 +16,7 @@ nav {
 }
 
 nav li {
-  display: table-cell;  /*Deixar o itens um do lado do outrom na linha*/
+  display: inline;  /*Deixar o itens um do lado do outrom na linha*/
   margin: 0 0 0 18px ; /*margem de cada item. primeiro topo, despois direita, baixo e esquerda*/
   padding: 8px;
 

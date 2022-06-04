@@ -152,9 +152,33 @@ td, th {
   padding: 8px 15px;
 }
 
+/*CSS da página inicial*/
 
+.banner {
+  width: 100%;
+}
 
+.titulo-principal {
+  text-align: center;
+  font-size: 2em; /*a media proporcional para pixels. Se quisermos duas vezes o tamanho base (15 pixels), basta escrever 2em.*/
+  margin:  0 0 1em; 
+}
 
+.principal p {
+  margin: 0 0 1em;
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em {
+  font-style: italic;
+}
+
+.imagembeneficios {
+  width: 60%;
+}
 
 /* repara que o nosso texto, ou seja, a nossa descrição, ela está muito colada na borda, está muito colada no fim do elemento, e aí, eu quero aumentar o espaçamento interno. O espaçamento interno é o padding, eu vou botar 30 pixels para cima e para baixo e 20 pixels para as laterais.
 

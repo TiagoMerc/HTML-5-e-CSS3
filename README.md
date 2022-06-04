@@ -233,3 +233,9 @@ Nesta aula, vimos:
 ### Criei o menu de navegação na HOME igual ao das outras páginas e foi inserido um footer
 
 ![Finalizando o projeto](imgs/prints/print12.png)
+
+### HTML5 e CSS3 parte 4: avançando no CSS
+
+03/06/2022 | 01. Adaptando a página inicial
+
+**O que aprendemos?**
