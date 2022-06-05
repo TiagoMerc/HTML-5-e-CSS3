@@ -236,6 +236,30 @@ Nesta aula, vimos:
 
 ### HTML5 e CSS3 parte 4: avançando no CSS
 
-03/06/2022 | 01. Adaptando a página inicial
+03/06/2022 e 05/06/2022 | 01. Adaptando a página inicial
 
 **O que aprendemos?**
+
+- A ajustar a página principal para utilizar os mesmos padrões da página de produtos
+
+- Medidas proporcionais com CSS
+
+- Como funciona a flutuação dos elementos e como modificá-la, com a 
+propriedade float do CSS
+
+- Como limpar o float, com a propriedade clear do CSS
+
+![Adaptando a página inicial](imgs/prints/print13.png)
+
+05/06/2022 | 02. Conteúdo externo
+
+**O que aprendemos?**
+
+- A utilizar fontes externas nas nossas páginas
+
+- Como incorporar um mapa à nossa página
+
+- Como incorporar um vídeo à nossa página
+
+![Conteúdo externo](imgs/prints/print14.png)
+![Conteúdo externo](imgs/prints/print15.png)
