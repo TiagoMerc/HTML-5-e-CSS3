@@ -263,3 +263,18 @@ propriedade float do CSS
 
 ![Conteúdo externo](imgs/prints/print14.png)
 ![Conteúdo externo](imgs/prints/print15.png)
+
+07/06/2022 | 03. Melhorando o CSS
+
+**O que aprendemos?**
+
+- A melhorar mais ainda a semântica da página principal, com novas divisões, classes, etc
+
+- Novas pseudo-classes
+
+- Como aplicar um background gradiente na página
+
+- Pseudo-elementos
+
+![Melhorando o CSS - 1](imgs/prints/print16.png)
+![Melhorando o CSS - 2](imgs/prints/print17.png)
