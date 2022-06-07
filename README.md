@@ -305,4 +305,4 @@ Seletores avançados CSS
 
 - Como adicionar um sombreamento em textos, com a propriedade CSS **text-shadow**
 
-[Selecionando qualquer cisa | Opacidade e sombra](imgs/prints/print18.png)
+![Selecionando qualquer cisa | Opacidade e sombra](imgs/prints/print18.png)
