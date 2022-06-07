@@ -264,7 +264,7 @@ propriedade float do CSS
 ![Conteúdo externo](imgs/prints/print14.png)
 ![Conteúdo externo](imgs/prints/print15.png)
 
-07/06/2022 | 03. Melhorando o CSS
+06/06/2022 | 03. Melhorando o CSS
 
 **O que aprendemos?**
 
@@ -278,3 +278,31 @@ propriedade float do CSS
 
 ![Melhorando o CSS - 1](imgs/prints/print16.png)
 ![Melhorando o CSS - 2](imgs/prints/print17.png)
+
+07/06/2022 | 04. Selecionando qualquer coisa 
+
+**O que aprendemos?**
+
+Seletores avançados CSS
+
+ - main > p { }
+
+ - img + p { }
+
+ - img ~ p { }
+
+ - main p:not(#missao) { }
+
+05. Opacidade e sombra
+
+**O que aprendemos?**
+
+- Como manipular a opacidade dos elementos, com a propriedade CSS **opacity**
+
+- Como manipular a opacidade das cores
+
+- Como adicionar um sombreamento em volta dos elementos, com a propriedade CSS **box-shadow**
+
+- Como adicionar um sombreamento em textos, com a propriedade CSS **text-shadow**
+
+[Selecionando qualquer cisa | Opacidade e sombra](imgs/prints/print18.png)

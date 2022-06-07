@@ -173,6 +173,8 @@ td, th {
   font-size: 2em; /*a media proporcional para pixels. Se quisermos duas vezes o tamanho base (15 pixels), basta escrever 2em.*/
   margin:  0 0 1em; 
   clear: left; /*LIMPA O FLOAT*/
+  color: rgba(0, 0, 0, 0.3); /*CSS 3*/
+ /* text-shadow: 2px 2px #FF0000; */
 }
 
 .principal p {
@@ -238,12 +240,30 @@ td, th {
 
 .imagem-beneficios {
   width: 60%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px 0 #000000; /*Sombras CSS3*/
+}
+
+.imagem-beneficios:hover {
+  opacity: 0.3;
 }
 
 .video {
   width: 560px;
   margin: 2em auto;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /* repara que o nosso texto, ou seja, a nossa descrição, ela está muito colada na borda, está muito colada no fim do elemento, e aí, eu quero aumentar o espaçamento interno. O espaçamento interno é o padding, eu vou botar 30 pixels para cima e para baixo e 20 pixels para as laterais.
 
