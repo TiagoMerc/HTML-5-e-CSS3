@@ -254,9 +254,36 @@ td, th {
   margin: 2em auto;
 }
 
+/* img ~ p {
+  background: yellow;
+} */
 
+@media screen and (max-width: 480px) {
+  .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    width: auto;
+  }
 
+  h1 {
+    text-align: center;
+  }
 
+  nav {
+    position: static;
+  }
+
+  .lista-beneficios, .imagem-beneficios {
+    width: 100%;
+  }
+
+  main {
+    margin-left: 12px;
+  }
+
+  .enviar {
+    padding-left: 4px;
+  font-size: 16px;
+  }
+}
 
 
 

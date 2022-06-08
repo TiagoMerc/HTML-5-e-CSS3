@@ -306,3 +306,15 @@ Seletores avançados CSS
 - Como adicionar um sombreamento em textos, com a propriedade CSS **text-shadow**
 
 ![Selecionando qualquer cisa | Opacidade e sombra](imgs/prints/print18.png)
+
+08/06/2022 | 06. Design responsivo 
+
+**O que aprendemos?**
+
+**- Design responsivo:** como ajustar o estilo da nossa página de acordo com o tamanho da tela do dispositivo que a acesse
+
+- Meta tag de **Viewport**
+
+- Media Queries
+
+![Design responsivo](imgs/prints/print19.png)

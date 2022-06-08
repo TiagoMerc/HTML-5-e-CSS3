@@ -34,6 +34,10 @@ nav a:hover {
   text-decoration: underline;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .produtos {
   width: 940px;
   margin: 0 auto;
@@ -93,7 +97,26 @@ footer {
   margin: 20px 0 0;
 }
 
+@media screen and (max-width: 480px) {
 
+ .caixa, .produtos, .produto-descricao, .produto-preco {
+    width: auto;
+    position: static;
+  }
+
+
+  h1{
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+/*   .produtos ul li img {
+    position: static;
+  } */
+  
+}
 
 
 
